@@ -2,6 +2,8 @@
 
 **Recursos Inteligentes para Analistas de Dados**
 
+[Acessar o DataViz Hub](https://gabmali.github.io/dataviz-hub/)
+
 Tudo o que você precisa para transformar dados em decisões.
 
 Biblioteca gratuita, pública e sem login para economizar tempo na criação de dashboards e projetos de análise. Aplicação funcional em português brasileiro, com recursos originais, dados sintéticos, pesquisa, filtros, favoritos e um construtor visual que exporta arquivos reais.
