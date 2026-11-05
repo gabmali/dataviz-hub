@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.env*
+!.env.example
+.vercel/
+.codex/
+__pycache__/
+*.log
+teste*.txt
+unit-report.json

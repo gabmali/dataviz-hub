@@ -1,0 +1,560 @@
+[
+  {
+    "id": "icon-Wallet",
+    "name": "Wallet",
+    "icon": "Wallet",
+    "category": "Financeiro",
+    "description": "Ícone Wallet para indicadores de financeiro.",
+    "tags": ["Financeiro", "Wallet"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Banknote",
+    "name": "Banknote",
+    "icon": "Banknote",
+    "category": "Financeiro",
+    "description": "Ícone Banknote para indicadores de financeiro.",
+    "tags": ["Financeiro", "Banknote"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-CreditCard",
+    "name": "CreditCard",
+    "icon": "CreditCard",
+    "category": "Financeiro",
+    "description": "Ícone CreditCard para indicadores de financeiro.",
+    "tags": ["Financeiro", "CreditCard"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-DollarSign",
+    "name": "DollarSign",
+    "icon": "DollarSign",
+    "category": "Financeiro",
+    "description": "Ícone DollarSign para indicadores de financeiro.",
+    "tags": ["Financeiro", "DollarSign"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Coins",
+    "name": "Coins",
+    "icon": "Coins",
+    "category": "Financeiro",
+    "description": "Ícone Coins para indicadores de financeiro.",
+    "tags": ["Financeiro", "Coins"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Receipt",
+    "name": "Receipt",
+    "icon": "Receipt",
+    "category": "Financeiro",
+    "description": "Ícone Receipt para indicadores de financeiro.",
+    "tags": ["Financeiro", "Receipt"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Landmark",
+    "name": "Landmark",
+    "icon": "Landmark",
+    "category": "Financeiro",
+    "description": "Ícone Landmark para indicadores de financeiro.",
+    "tags": ["Financeiro", "Landmark"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-ShoppingCart",
+    "name": "ShoppingCart",
+    "icon": "ShoppingCart",
+    "category": "Vendas",
+    "description": "Ícone ShoppingCart para indicadores de vendas.",
+    "tags": ["Vendas", "ShoppingCart"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-ShoppingBag",
+    "name": "ShoppingBag",
+    "icon": "ShoppingBag",
+    "category": "Vendas",
+    "description": "Ícone ShoppingBag para indicadores de vendas.",
+    "tags": ["Vendas", "ShoppingBag"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Store",
+    "name": "Store",
+    "icon": "Store",
+    "category": "Vendas",
+    "description": "Ícone Store para indicadores de vendas.",
+    "tags": ["Vendas", "Store"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Tag",
+    "name": "Tag",
+    "icon": "Tag",
+    "category": "Vendas",
+    "description": "Ícone Tag para indicadores de vendas.",
+    "tags": ["Vendas", "Tag"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Percent",
+    "name": "Percent",
+    "icon": "Percent",
+    "category": "Vendas",
+    "description": "Ícone Percent para indicadores de vendas.",
+    "tags": ["Vendas", "Percent"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Gift",
+    "name": "Gift",
+    "icon": "Gift",
+    "category": "Vendas",
+    "description": "Ícone Gift para indicadores de vendas.",
+    "tags": ["Vendas", "Gift"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-TrendingUp",
+    "name": "TrendingUp",
+    "icon": "TrendingUp",
+    "category": "Vendas",
+    "description": "Ícone TrendingUp para indicadores de vendas.",
+    "tags": ["Vendas", "TrendingUp"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Users",
+    "name": "Users",
+    "icon": "Users",
+    "category": "Pessoas",
+    "description": "Ícone Users para indicadores de pessoas.",
+    "tags": ["Pessoas", "Users"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-User",
+    "name": "User",
+    "icon": "User",
+    "category": "Pessoas",
+    "description": "Ícone User para indicadores de pessoas.",
+    "tags": ["Pessoas", "User"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-UserPlus",
+    "name": "UserPlus",
+    "icon": "UserPlus",
+    "category": "Pessoas",
+    "description": "Ícone UserPlus para indicadores de pessoas.",
+    "tags": ["Pessoas", "UserPlus"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Contact",
+    "name": "Contact",
+    "icon": "Contact",
+    "category": "Pessoas",
+    "description": "Ícone Contact para indicadores de pessoas.",
+    "tags": ["Pessoas", "Contact"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Heart",
+    "name": "Heart",
+    "icon": "Heart",
+    "category": "Pessoas",
+    "description": "Ícone Heart para indicadores de pessoas.",
+    "tags": ["Pessoas", "Heart"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-GraduationCap",
+    "name": "GraduationCap",
+    "icon": "GraduationCap",
+    "category": "Pessoas",
+    "description": "Ícone GraduationCap para indicadores de pessoas.",
+    "tags": ["Pessoas", "GraduationCap"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Briefcase",
+    "name": "Briefcase",
+    "icon": "Briefcase",
+    "category": "Pessoas",
+    "description": "Ícone Briefcase para indicadores de pessoas.",
+    "tags": ["Pessoas", "Briefcase"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Megaphone",
+    "name": "Megaphone",
+    "icon": "Megaphone",
+    "category": "Marketing",
+    "description": "Ícone Megaphone para indicadores de marketing.",
+    "tags": ["Marketing", "Megaphone"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Target",
+    "name": "Target",
+    "icon": "Target",
+    "category": "Marketing",
+    "description": "Ícone Target para indicadores de marketing.",
+    "tags": ["Marketing", "Target"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-MousePointerClick",
+    "name": "MousePointerClick",
+    "icon": "MousePointerClick",
+    "category": "Marketing",
+    "description": "Ícone MousePointerClick para indicadores de marketing.",
+    "tags": ["Marketing", "MousePointerClick"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Mail",
+    "name": "Mail",
+    "icon": "Mail",
+    "category": "Marketing",
+    "description": "Ícone Mail para indicadores de marketing.",
+    "tags": ["Marketing", "Mail"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Globe",
+    "name": "Globe",
+    "icon": "Globe",
+    "category": "Marketing",
+    "description": "Ícone Globe para indicadores de marketing.",
+    "tags": ["Marketing", "Globe"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Share2",
+    "name": "Share2",
+    "icon": "Share2",
+    "category": "Marketing",
+    "description": "Ícone Share2 para indicadores de marketing.",
+    "tags": ["Marketing", "Share2"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Eye",
+    "name": "Eye",
+    "icon": "Eye",
+    "category": "Marketing",
+    "description": "Ícone Eye para indicadores de marketing.",
+    "tags": ["Marketing", "Eye"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Monitor",
+    "name": "Monitor",
+    "icon": "Monitor",
+    "category": "Tecnologia",
+    "description": "Ícone Monitor para indicadores de tecnologia.",
+    "tags": ["Tecnologia", "Monitor"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Laptop",
+    "name": "Laptop",
+    "icon": "Laptop",
+    "category": "Tecnologia",
+    "description": "Ícone Laptop para indicadores de tecnologia.",
+    "tags": ["Tecnologia", "Laptop"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Cpu",
+    "name": "Cpu",
+    "icon": "Cpu",
+    "category": "Tecnologia",
+    "description": "Ícone Cpu para indicadores de tecnologia.",
+    "tags": ["Tecnologia", "Cpu"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Database",
+    "name": "Database",
+    "icon": "Database",
+    "category": "Tecnologia",
+    "description": "Ícone Database para indicadores de tecnologia.",
+    "tags": ["Tecnologia", "Database"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Code",
+    "name": "Code",
+    "icon": "Code",
+    "category": "Tecnologia",
+    "description": "Ícone Code para indicadores de tecnologia.",
+    "tags": ["Tecnologia", "Code"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Cloud",
+    "name": "Cloud",
+    "icon": "Cloud",
+    "category": "Tecnologia",
+    "description": "Ícone Cloud para indicadores de tecnologia.",
+    "tags": ["Tecnologia", "Cloud"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Server",
+    "name": "Server",
+    "icon": "Server",
+    "category": "Tecnologia",
+    "description": "Ícone Server para indicadores de tecnologia.",
+    "tags": ["Tecnologia", "Server"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Truck",
+    "name": "Truck",
+    "icon": "Truck",
+    "category": "Logística",
+    "description": "Ícone Truck para indicadores de logística.",
+    "tags": ["Logística", "Truck"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Package",
+    "name": "Package",
+    "icon": "Package",
+    "category": "Logística",
+    "description": "Ícone Package para indicadores de logística.",
+    "tags": ["Logística", "Package"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-MapPin",
+    "name": "MapPin",
+    "icon": "MapPin",
+    "category": "Logística",
+    "description": "Ícone MapPin para indicadores de logística.",
+    "tags": ["Logística", "MapPin"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Route",
+    "name": "Route",
+    "icon": "Route",
+    "category": "Logística",
+    "description": "Ícone Route para indicadores de logística.",
+    "tags": ["Logística", "Route"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Warehouse",
+    "name": "Warehouse",
+    "icon": "Warehouse",
+    "category": "Logística",
+    "description": "Ícone Warehouse para indicadores de logística.",
+    "tags": ["Logística", "Warehouse"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Ship",
+    "name": "Ship",
+    "icon": "Ship",
+    "category": "Logística",
+    "description": "Ícone Ship para indicadores de logística.",
+    "tags": ["Logística", "Ship"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Plane",
+    "name": "Plane",
+    "icon": "Plane",
+    "category": "Logística",
+    "description": "Ícone Plane para indicadores de logística.",
+    "tags": ["Logística", "Plane"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Shield",
+    "name": "Shield",
+    "icon": "Shield",
+    "category": "Segurança",
+    "description": "Ícone Shield para indicadores de segurança.",
+    "tags": ["Segurança", "Shield"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Lock",
+    "name": "Lock",
+    "icon": "Lock",
+    "category": "Segurança",
+    "description": "Ícone Lock para indicadores de segurança.",
+    "tags": ["Segurança", "Lock"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Key",
+    "name": "Key",
+    "icon": "Key",
+    "category": "Segurança",
+    "description": "Ícone Key para indicadores de segurança.",
+    "tags": ["Segurança", "Key"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-ShieldCheck",
+    "name": "ShieldCheck",
+    "icon": "ShieldCheck",
+    "category": "Segurança",
+    "description": "Ícone ShieldCheck para indicadores de segurança.",
+    "tags": ["Segurança", "ShieldCheck"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Fingerprint",
+    "name": "Fingerprint",
+    "icon": "Fingerprint",
+    "category": "Segurança",
+    "description": "Ícone Fingerprint para indicadores de segurança.",
+    "tags": ["Segurança", "Fingerprint"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Scan",
+    "name": "Scan",
+    "icon": "Scan",
+    "category": "Segurança",
+    "description": "Ícone Scan para indicadores de segurança.",
+    "tags": ["Segurança", "Scan"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-ChartColumn",
+    "name": "ChartColumn",
+    "icon": "ChartColumn",
+    "category": "Indicadores",
+    "description": "Ícone ChartColumn para indicadores de indicadores.",
+    "tags": ["Indicadores", "ChartColumn"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-ChartLine",
+    "name": "ChartLine",
+    "icon": "ChartLine",
+    "category": "Indicadores",
+    "description": "Ícone ChartLine para indicadores de indicadores.",
+    "tags": ["Indicadores", "ChartLine"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-ChartPie",
+    "name": "ChartPie",
+    "icon": "ChartPie",
+    "category": "Indicadores",
+    "description": "Ícone ChartPie para indicadores de indicadores.",
+    "tags": ["Indicadores", "ChartPie"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Gauge",
+    "name": "Gauge",
+    "icon": "Gauge",
+    "category": "Indicadores",
+    "description": "Ícone Gauge para indicadores de indicadores.",
+    "tags": ["Indicadores", "Gauge"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Activity",
+    "name": "Activity",
+    "icon": "Activity",
+    "category": "Indicadores",
+    "description": "Ícone Activity para indicadores de indicadores.",
+    "tags": ["Indicadores", "Activity"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Calendar",
+    "name": "Calendar",
+    "icon": "Calendar",
+    "category": "Indicadores",
+    "description": "Ícone Calendar para indicadores de indicadores.",
+    "tags": ["Indicadores", "Calendar"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Clock",
+    "name": "Clock",
+    "icon": "Clock",
+    "category": "Indicadores",
+    "description": "Ícone Clock para indicadores de indicadores.",
+    "tags": ["Indicadores", "Clock"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Building2",
+    "name": "Building2",
+    "icon": "Building2",
+    "category": "Negócios",
+    "description": "Ícone Building2 para indicadores de negócios.",
+    "tags": ["Negócios", "Building2"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Handshake",
+    "name": "Handshake",
+    "icon": "Handshake",
+    "category": "Negócios",
+    "description": "Ícone Handshake para indicadores de negócios.",
+    "tags": ["Negócios", "Handshake"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Award",
+    "name": "Award",
+    "icon": "Award",
+    "category": "Negócios",
+    "description": "Ícone Award para indicadores de negócios.",
+    "tags": ["Negócios", "Award"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-FileText",
+    "name": "FileText",
+    "icon": "FileText",
+    "category": "Negócios",
+    "description": "Ícone FileText para indicadores de negócios.",
+    "tags": ["Negócios", "FileText"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Layers",
+    "name": "Layers",
+    "icon": "Layers",
+    "category": "Negócios",
+    "description": "Ícone Layers para indicadores de negócios.",
+    "tags": ["Negócios", "Layers"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Lightbulb",
+    "name": "Lightbulb",
+    "icon": "Lightbulb",
+    "category": "Negócios",
+    "description": "Ícone Lightbulb para indicadores de negócios.",
+    "tags": ["Negócios", "Lightbulb"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "icon-Rocket",
+    "name": "Rocket",
+    "icon": "Rocket",
+    "category": "Negócios",
+    "description": "Ícone Rocket para indicadores de negócios.",
+    "tags": ["Negócios", "Rocket"],
+    "createdAt": "2026-11-04"
+  }
+]

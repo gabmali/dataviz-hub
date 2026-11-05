@@ -1,0 +1,202 @@
+[
+  {
+    "id": "background-1",
+    "name": "Corporativo Essencial",
+    "category": "Corporativo",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#102A43", "#F97316", "#38BDF8", "#CBD5E1", "#10B981"],
+    "variant": 0,
+    "tags": ["Corporativo", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-2",
+    "name": "Minimalista Essencial",
+    "category": "Minimalista",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#123B38", "#2DD4BF", "#A3E635", "#99CCC6", "#FBBF24"],
+    "variant": 1,
+    "tags": ["Minimalista", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-3",
+    "name": "Executivo Essencial",
+    "category": "Executivo",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#312E81", "#818CF8", "#F472B6", "#C4B5FD", "#38BDF8"],
+    "variant": 2,
+    "tags": ["Executivo", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-4",
+    "name": "Financeiro Essencial",
+    "category": "Financeiro",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#1E293B", "#3B82F6", "#60A5FA", "#93C5FD", "#F59E0B"],
+    "variant": 3,
+    "tags": ["Financeiro", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-5",
+    "name": "Tecnologia Essencial",
+    "category": "Tecnologia",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#4A243A", "#E879A0", "#FB923C", "#E9B8CB", "#9F7AEA"],
+    "variant": 0,
+    "tags": ["Tecnologia", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-6",
+    "name": "Escuro Essencial",
+    "category": "Escuro",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#071D31", "#102A43", "#F97316"],
+    "variant": 1,
+    "tags": ["Escuro", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-7",
+    "name": "Claro Essencial",
+    "category": "Claro",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#F3F6FA", "#FFFFFF", "#CBD5E1"],
+    "variant": 2,
+    "tags": ["Claro", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-8",
+    "name": "Gradiente Essencial",
+    "category": "Gradiente",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#312E81", "#818CF8", "#F472B6", "#C4B5FD", "#38BDF8"],
+    "variant": 3,
+    "tags": ["Gradiente", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-9",
+    "name": "Moderno Essencial",
+    "category": "Moderno",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#1E293B", "#3B82F6", "#60A5FA", "#93C5FD", "#F59E0B"],
+    "variant": 0,
+    "tags": ["Moderno", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-10",
+    "name": "Geométrico Essencial",
+    "category": "Geométrico",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#4A243A", "#E879A0", "#FB923C", "#E9B8CB", "#9F7AEA"],
+    "variant": 1,
+    "tags": ["Geométrico", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-11",
+    "name": "Corporativo Studio",
+    "category": "Corporativo",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#102A43", "#F97316", "#38BDF8", "#CBD5E1", "#10B981"],
+    "variant": 2,
+    "tags": ["Corporativo", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-12",
+    "name": "Minimalista Studio",
+    "category": "Minimalista",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#123B38", "#2DD4BF", "#A3E635", "#99CCC6", "#FBBF24"],
+    "variant": 3,
+    "tags": ["Minimalista", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-13",
+    "name": "Executivo Studio",
+    "category": "Executivo",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#312E81", "#818CF8", "#F472B6", "#C4B5FD", "#38BDF8"],
+    "variant": 0,
+    "tags": ["Executivo", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-14",
+    "name": "Financeiro Studio",
+    "category": "Financeiro",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#1E293B", "#3B82F6", "#60A5FA", "#93C5FD", "#F59E0B"],
+    "variant": 1,
+    "tags": ["Financeiro", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-15",
+    "name": "Tecnologia Studio",
+    "category": "Tecnologia",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#4A243A", "#E879A0", "#FB923C", "#E9B8CB", "#9F7AEA"],
+    "variant": 2,
+    "tags": ["Tecnologia", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-16",
+    "name": "Escuro Studio",
+    "category": "Escuro",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#071D31", "#102A43", "#F97316"],
+    "variant": 3,
+    "tags": ["Escuro", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-17",
+    "name": "Claro Studio",
+    "category": "Claro",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#F3F6FA", "#FFFFFF", "#CBD5E1"],
+    "variant": 0,
+    "tags": ["Claro", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-18",
+    "name": "Gradiente Studio",
+    "category": "Gradiente",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#312E81", "#818CF8", "#F472B6", "#C4B5FD", "#38BDF8"],
+    "variant": 1,
+    "tags": ["Gradiente", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-19",
+    "name": "Moderno Studio",
+    "category": "Moderno",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#1E293B", "#3B82F6", "#60A5FA", "#93C5FD", "#F59E0B"],
+    "variant": 2,
+    "tags": ["Moderno", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "background-20",
+    "name": "Geométrico Studio",
+    "category": "Geométrico",
+    "description": "Fundo original em SVG, com áreas de KPI e gráficos. Exporte como PNG na resolução do seu relatório.",
+    "colors": ["#4A243A", "#E879A0", "#FB923C", "#E9B8CB", "#9F7AEA"],
+    "variant": 3,
+    "tags": ["Geométrico", "16:9", "Power BI"],
+    "createdAt": "2026-11-04"
+  }
+]

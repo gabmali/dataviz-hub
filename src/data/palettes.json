@@ -1,0 +1,155 @@
+[
+  {
+    "id": "palette-1",
+    "name": "Hub Original",
+    "category": "Corporativo",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#102A43", "#F97316", "#38BDF8", "#CBD5E1", "#10B981"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-2",
+    "name": "Jardim de dados",
+    "category": "Financeiro",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#123B38", "#2DD4BF", "#A3E635", "#99CCC6", "#FBBF24"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-3",
+    "name": "Órbita",
+    "category": "Tecnologia",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#312E81", "#818CF8", "#F472B6", "#C4B5FD", "#38BDF8"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-4",
+    "name": "Azul executivo",
+    "category": "Executivo",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#1E293B", "#3B82F6", "#60A5FA", "#93C5FD", "#F59E0B"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-5",
+    "name": "Rosa editorial",
+    "category": "Moderno",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#4A243A", "#E879A0", "#FB923C", "#E9B8CB", "#9F7AEA"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-6",
+    "name": "Oceano profundo",
+    "category": "Minimalista",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#0C4A6E", "#0891B2", "#22D3EE", "#A5F3FC", "#F0FDFA"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-7",
+    "name": "Terra & cobre",
+    "category": "Dark Mode",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#78350F", "#B45309", "#D97706", "#FCD34D", "#FEF3C7"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-8",
+    "name": "Verde financeiro",
+    "category": "Corporativo",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#064E3B", "#059669", "#34D399", "#A7F3D0", "#ECFDF5"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-9",
+    "name": "Pôr do sol",
+    "category": "Financeiro",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#7C2D12", "#EA580C", "#FB923C", "#FDBA74", "#FFF7ED"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-10",
+    "name": "Neutros essenciais",
+    "category": "Tecnologia",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#1F2937", "#6B7280", "#9CA3AF", "#D1D5DB", "#F9FAFB"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-11",
+    "name": "Noite digital",
+    "category": "Executivo",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#071D31", "#38BDF8", "#818CF8", "#F472B6", "#F8FAFC"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-12",
+    "name": "Aurora",
+    "category": "Moderno",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#4C1D95", "#8B5CF6", "#C084FC", "#F0ABFC", "#FAF5FF"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-13",
+    "name": "Atlântico",
+    "category": "Minimalista",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#164E63", "#0E7490", "#06B6D4", "#67E8F9", "#ECFEFF"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-14",
+    "name": "Lavanda",
+    "category": "Dark Mode",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#3730A3", "#6366F1", "#A5B4FC", "#DDD6FE", "#EEF2FF"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-15",
+    "name": "Café & caramelo",
+    "category": "Corporativo",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#451A03", "#92400E", "#D97706", "#FBBF24", "#FFFBEB"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-16",
+    "name": "Tech Signal",
+    "category": "Financeiro",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#0F172A", "#10B981", "#38BDF8", "#A78BFA", "#F8FAFC"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "palette-17",
+    "name": "Citrus",
+    "category": "Tecnologia",
+    "description": "Combinação profissional para séries de dados, títulos e destaques.",
+    "colors": ["#365314", "#65A30D", "#A3E635", "#D9F99D", "#F7FEE7"],
+    "tags": ["HEX", "Power BI", "Tema"],
+    "createdAt": "2026-11-04"
+  }
+]

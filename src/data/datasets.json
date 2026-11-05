@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "dataset-vendas",
+    "slug": "vendas",
+    "name": "Vendas de uma empresa",
+    "category": "Vendas",
+    "description": "Pedidos, produtos, canais e custos de 2024 e 2025 para análise comercial.",
+    "difficulty": "Iniciante",
+    "rows": 600,
+    "columns": 10,
+    "dictionary": [
+      {
+        "name": "pedido_id",
+        "type": "número",
+        "description": "Pedido id; dado fictício"
+      },
+      {
+        "name": "data",
+        "type": "texto / data",
+        "description": "Data do evento (YYYY-MM-DD)"
+      },
+      {
+        "name": "cliente_id",
+        "type": "número",
+        "description": "Identificador sintético de cliente; recorrente"
+      },
+      {
+        "name": "produto_id",
+        "type": "número",
+        "description": "Identificador sintético de produto; recorrente"
+      },
+      {
+        "name": "regiao",
+        "type": "texto / data",
+        "description": "Região de operação"
+      },
+      {
+        "name": "canal",
+        "type": "texto / data",
+        "description": "Canal; dado fictício"
+      },
+      {
+        "name": "quantidade",
+        "type": "número",
+        "description": "Quantidade; dado fictício"
+      },
+      {
+        "name": "preco_unitario",
+        "type": "número",
+        "description": "Preco unitario; dado fictício"
+      },
+      {
+        "name": "receita",
+        "type": "número",
+        "description": "Quantidade × preço unitário, em BRL"
+      },
+      {
+        "name": "custo",
+        "type": "número",
+        "description": "Custo total do pedido em BRL"
+      }
+    ],
+    "kpis": ["Receita", "Ticket médio", "Margem"],
+    "analyses": [
+      "Receita por região e canal",
+      "Comparação anual de vendas",
+      "Sazonalidade mensal"
+    ],
+    "quality": [],
+    "preview": [
+      {
+        "pedido_id": 1,
+        "data": "2024-01-01",
+        "cliente_id": 2,
+        "produto_id": 2,
+        "regiao": "Norte",
+        "canal": "Online",
+        "quantidade": 11,
+        "preco_unitario": 81.2,
+        "receita": 893.2,
+        "custo": 481.69
+      },
+      {
+        "pedido_id": 2,
+        "data": "2024-01-02",
+        "cliente_id": 3,
+        "produto_id": 3,
+        "regiao": "Sul",
+        "canal": "Online",
+        "quantidade": 10,
+        "preco_unitario": 114.8,
+        "receita": 1148.0,
+        "custo": 820.25
+      },
+      {
+        "pedido_id": 3,
+        "data": "2024-01-03",
+        "cliente_id": 4,
+        "produto_id": 4,
+        "regiao": "Sudeste",
+        "canal": "Parceiro",
+        "quantidade": 3,
+        "preco_unitario": 144.93,
+        "receita": 434.79,
+        "custo": 293.29
+      },
+      {
+        "pedido_id": 4,
+        "data": "2024-01-04",
+        "cliente_id": 5,
+        "produto_id": 5,
+        "regiao": "Sudeste",
+        "canal": "Parceiro",
+        "quantidade": 3,
+        "preco_unitario": 190.17,
+        "receita": 570.51,
+        "custo": 474.32
+      },
+      {
+        "pedido_id": 5,
+        "data": "2024-01-05",
+        "cliente_id": 6,
+        "produto_id": 6,
+        "regiao": "Norte",
+        "canal": "Online",
+        "quantidade": 2,
+        "preco_unitario": 410.75,
+        "receita": 821.5,
+        "custo": 538.63
+      },
+      {
+        "pedido_id": 6,
+        "data": "2024-01-07",
+        "cliente_id": 7,
+        "produto_id": 7,
+        "regiao": "Nordeste",
+        "canal": "Loja",
+        "quantidade": 4,
+        "preco_unitario": 104.02,
+        "receita": 416.08,
+        "custo": 222.81
+      },
+      {
+        "pedido_id": 7,
+        "data": "2024-01-08",
+        "cliente_id": 8,
+        "produto_id": 8,
+        "regiao": "Norte",
+        "canal": "Online",
+        "quantidade": 10,
+        "preco_unitario": 251.95,
+        "receita": 2519.5,
+        "custo": 1808.72
+      },
+      {
+        "pedido_id": 8,
+        "data": "2024-01-09",
+        "cliente_id": 9,
+        "produto_id": 9,
+        "regiao": "Norte",
+        "canal": "Parceiro",
+        "quantidade": 11,
+        "preco_unitario": 298.21,
+        "receita": 3280.31,
+        "custo": 2117.15
+      }
+    ],
+    "tags": ["Vendas", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "dataset-rh",
+    "slug": "rh",
+    "name": "Pessoas e desenvolvimento",
+    "category": "Recursos Humanos",
+    "description": "Colaboradores sintéticos e indicadores de capacitação.",
+    "difficulty": "Iniciante",
+    "rows": 600,
+    "columns": 7,
+    "dictionary": [
+      {
+        "name": "colaborador_id",
+        "type": "número",
+        "description": "Colaborador id; dado fictício"
+      },
+      {
+        "name": "departamento",
+        "type": "texto / data",
+        "description": "Departamento; dado fictício"
+      },
+      {
+        "name": "admissao",
+        "type": "texto / data",
+        "description": "Admissao; dado fictício"
+      },
+      {
+        "name": "salario",
+        "type": "número",
+        "description": "Salário mensal fictício em BRL"
+      },
+      {
+        "name": "horas_treinamento",
+        "type": "número",
+        "description": "Horas treinamento; dado fictício"
+      },
+      {
+        "name": "status",
+        "type": "texto / data",
+        "description": "Status; dado fictício"
+      },
+      {
+        "name": "avaliacao",
+        "type": "número",
+        "description": "Avaliacao; dado fictício"
+      }
+    ],
+    "kpis": ["Headcount", "Salário médio", "Horas de treinamento"],
+    "analyses": ["Distribuição salarial", "Capacitação por departamento"],
+    "quality": [],
+    "preview": [
+      {
+        "colaborador_id": 1,
+        "departamento": "Comercial",
+        "admissao": "2021-01-03",
+        "salario": 12988.84,
+        "horas_treinamento": 69,
+        "status": "Ativo",
+        "avaliacao": 5
+      },
+      {
+        "colaborador_id": 2,
+        "departamento": "Operações",
+        "admissao": "2021-01-05",
+        "salario": 17770.93,
+        "horas_treinamento": 29,
+        "status": "Ativo",
+        "avaliacao": 4
+      },
+      {
+        "colaborador_id": 3,
+        "departamento": "Operações",
+        "admissao": "2021-01-07",
+        "salario": 14078.71,
+        "horas_treinamento": 54,
+        "status": "Desligado",
+        "avaliacao": 3
+      },
+      {
+        "colaborador_id": 4,
+        "departamento": "Comercial",
+        "admissao": "2021-01-09",
+        "salario": 11783.64,
+        "horas_treinamento": 62,
+        "status": "Ativo",
+        "avaliacao": 1
+      },
+      {
+        "colaborador_id": 5,
+        "departamento": "Operações",
+        "admissao": "2021-01-11",
+        "salario": 12869.16,
+        "horas_treinamento": 27,
+        "status": "Ativo",
+        "avaliacao": 5
+      },
+      {
+        "colaborador_id": 6,
+        "departamento": "Financeiro",
+        "admissao": "2021-01-13",
+        "salario": 16487.86,
+        "horas_treinamento": 21,
+        "status": "Desligado",
+        "avaliacao": 1
+      },
+      {
+        "colaborador_id": 7,
+        "departamento": "Operações",
+        "admissao": "2021-01-15",
+        "salario": 6199.63,
+        "horas_treinamento": 50,
+        "status": "Ativo",
+        "avaliacao": 3
+      },
+      {
+        "colaborador_id": 8,
+        "departamento": "Comercial",
+        "admissao": "2021-01-17",
+        "salario": 3930.63,
+        "horas_treinamento": 54,
+        "status": "Ativo",
+        "avaliacao": 1
+      }
+    ],
+    "tags": ["Recursos Humanos", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "dataset-financeiro",
+    "slug": "financeiro",
+    "name": "Fluxo financeiro",
+    "category": "Financeiro",
+    "description": "Receitas, despesas, vencimentos e centros de custo.",
+    "difficulty": "Intermediário",
+    "rows": 600,
+    "columns": 7,
+    "dictionary": [
+      {
+        "name": "transacao_id",
+        "type": "número",
+        "description": "Transacao id; dado fictício"
+      },
+      {
+        "name": "data",
+        "type": "texto / data",
+        "description": "Data do evento (YYYY-MM-DD)"
+      },
+      {
+        "name": "centro_custo",
+        "type": "texto / data",
+        "description": "Centro custo; dado fictício"
+      },
+      {
+        "name": "tipo",
+        "type": "texto / data",
+        "description": "Tipo; dado fictício"
+      },
+      {
+        "name": "valor",
+        "type": "número",
+        "description": "Valor; dado fictício"
+      },
+      {
+        "name": "status",
+        "type": "texto / data",
+        "description": "Status; dado fictício"
+      },
+      {
+        "name": "vencimento",
+        "type": "texto / data",
+        "description": "Vencimento; dado fictício"
+      }
+    ],
+    "kpis": ["Saldo", "Receita", "Inadimplência"],
+    "analyses": ["Evolução do saldo", "Despesas por centro de custo"],
+    "quality": [],
+    "preview": [
+      {
+        "transacao_id": 1,
+        "data": "2025-01-02",
+        "centro_custo": "Marketing",
+        "tipo": "Receita",
+        "valor": 543.98,
+        "status": "Pago",
+        "vencimento": "2025-02-01"
+      },
+      {
+        "transacao_id": 2,
+        "data": "2025-01-03",
+        "centro_custo": "Marketing",
+        "tipo": "Despesa",
+        "valor": 9571.7,
+        "status": "Pendente",
+        "vencimento": "2025-02-02"
+      },
+      {
+        "transacao_id": 3,
+        "data": "2025-01-04",
+        "centro_custo": "Operações",
+        "tipo": "Receita",
+        "valor": 7691.94,
+        "status": "Pago",
+        "vencimento": "2025-02-03"
+      },
+      {
+        "transacao_id": 4,
+        "data": "2025-01-05",
+        "centro_custo": "Marketing",
+        "tipo": "Despesa",
+        "valor": 3667.84,
+        "status": "Pago",
+        "vencimento": "2025-02-04"
+      },
+      {
+        "transacao_id": 5,
+        "data": "2025-01-06",
+        "centro_custo": "Tecnologia",
+        "tipo": "Despesa",
+        "valor": 3720.66,
+        "status": "Pendente",
+        "vencimento": "2025-02-05"
+      },
+      {
+        "transacao_id": 6,
+        "data": "2025-01-07",
+        "centro_custo": "Marketing",
+        "tipo": "Despesa",
+        "valor": 13905.12,
+        "status": "Pendente",
+        "vencimento": "2025-02-06"
+      },
+      {
+        "transacao_id": 7,
+        "data": "2025-01-08",
+        "centro_custo": "Marketing",
+        "tipo": "Despesa",
+        "valor": 13942.37,
+        "status": "Pago",
+        "vencimento": "2025-02-07"
+      },
+      {
+        "transacao_id": 8,
+        "data": "2025-01-09",
+        "centro_custo": "Operações",
+        "tipo": "Despesa",
+        "valor": 11589.68,
+        "status": "Vencido",
+        "vencimento": "2025-02-08"
+      }
+    ],
+    "tags": ["Financeiro", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "dataset-estoque",
+    "slug": "estoque",
+    "name": "Movimentação de estoque",
+    "category": "Estoque",
+    "description": "Saldos por produto, depósito e dia.",
+    "difficulty": "Iniciante",
+    "rows": 600,
+    "columns": 8,
+    "dictionary": [
+      {
+        "name": "movimento_id",
+        "type": "número",
+        "description": "Movimento id; dado fictício"
+      },
+      {
+        "name": "data",
+        "type": "texto / data",
+        "description": "Data do evento (YYYY-MM-DD)"
+      },
+      {
+        "name": "produto_id",
+        "type": "número",
+        "description": "Identificador sintético de produto; recorrente"
+      },
+      {
+        "name": "deposito",
+        "type": "texto / data",
+        "description": "Deposito; dado fictício"
+      },
+      {
+        "name": "saldo",
+        "type": "número",
+        "description": "Saldo; dado fictício"
+      },
+      {
+        "name": "estoque_minimo",
+        "type": "número",
+        "description": "Estoque minimo; dado fictício"
+      },
+      {
+        "name": "custo_unitario",
+        "type": "número",
+        "description": "Custo unitario; dado fictício"
+      },
+      {
+        "name": "reposicao_necessaria",
+        "type": "número",
+        "description": "Reposicao necessaria; dado fictício"
+      }
+    ],
+    "kpis": ["Valor de estoque", "Ruptura", "Itens abaixo do mínimo"],
+    "analyses": ["Necessidade de reposição", "Comparação entre depósitos"],
+    "quality": [],
+    "preview": [
+      {
+        "movimento_id": 1,
+        "data": "2025-01-02",
+        "produto_id": 2,
+        "deposito": "C",
+        "saldo": 119,
+        "estoque_minimo": 42,
+        "custo_unitario": 15.04,
+        "reposicao_necessaria": 0
+      },
+      {
+        "movimento_id": 2,
+        "data": "2025-01-03",
+        "produto_id": 3,
+        "deposito": "B",
+        "saldo": 83,
+        "estoque_minimo": 33,
+        "custo_unitario": 49.81,
+        "reposicao_necessaria": 0
+      },
+      {
+        "movimento_id": 3,
+        "data": "2025-01-04",
+        "produto_id": 4,
+        "deposito": "A",
+        "saldo": 24,
+        "estoque_minimo": 17,
+        "custo_unitario": 129.21,
+        "reposicao_necessaria": 0
+      },
+      {
+        "movimento_id": 4,
+        "data": "2025-01-05",
+        "produto_id": 5,
+        "deposito": "A",
+        "saldo": 290,
+        "estoque_minimo": 15,
+        "custo_unitario": 149.06,
+        "reposicao_necessaria": 0
+      },
+      {
+        "movimento_id": 5,
+        "data": "2025-01-06",
+        "produto_id": 6,
+        "deposito": "A",
+        "saldo": 208,
+        "estoque_minimo": 22,
+        "custo_unitario": 28.42,
+        "reposicao_necessaria": 0
+      },
+      {
+        "movimento_id": 6,
+        "data": "2025-01-07",
+        "produto_id": 7,
+        "deposito": "C",
+        "saldo": 146,
+        "estoque_minimo": 37,
+        "custo_unitario": 191.89,
+        "reposicao_necessaria": 0
+      },
+      {
+        "movimento_id": 7,
+        "data": "2025-01-08",
+        "produto_id": 8,
+        "deposito": "C",
+        "saldo": 4,
+        "estoque_minimo": 39,
+        "custo_unitario": 199.71,
+        "reposicao_necessaria": 1
+      },
+      {
+        "movimento_id": 8,
+        "data": "2025-01-09",
+        "produto_id": 9,
+        "deposito": "C",
+        "saldo": 134,
+        "estoque_minimo": 20,
+        "custo_unitario": 93.95,
+        "reposicao_necessaria": 0
+      }
+    ],
+    "tags": ["Estoque", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "dataset-ecommerce",
+    "slug": "ecommerce",
+    "name": "Jornada de e-commerce",
+    "category": "E-commerce",
+    "description": "Sessões, carrinhos e pedidos agregados por canal.",
+    "difficulty": "Intermediário",
+    "rows": 600,
+    "columns": 8,
+    "dictionary": [
+      {
+        "name": "registro_id",
+        "type": "número",
+        "description": "Registro id; dado fictício"
+      },
+      {
+        "name": "data",
+        "type": "texto / data",
+        "description": "Data do evento (YYYY-MM-DD)"
+      },
+      {
+        "name": "canal",
+        "type": "texto / data",
+        "description": "Canal; dado fictício"
+      },
+      {
+        "name": "sessoes",
+        "type": "número",
+        "description": "Sessoes; dado fictício"
+      },
+      {
+        "name": "carrinhos",
+        "type": "número",
+        "description": "Carrinhos; dado fictício"
+      },
+      {
+        "name": "pedidos",
+        "type": "número",
+        "description": "Pedidos; dado fictício"
+      },
+      {
+        "name": "receita",
+        "type": "número",
+        "description": "Quantidade × preço unitário, em BRL"
+      },
+      {
+        "name": "dispositivo",
+        "type": "texto / data",
+        "description": "Dispositivo; dado fictício"
+      }
+    ],
+    "kpis": ["Conversão", "Receita por sessão", "Abandono"],
+    "analyses": ["Funil de compra", "Desempenho mobile"],
+    "quality": [],
+    "preview": [
+      {
+        "registro_id": 1,
+        "data": "2025-01-02",
+        "canal": "Direto",
+        "sessoes": 1728,
+        "carrinhos": 237,
+        "pedidos": 167,
+        "receita": 22361.3,
+        "dispositivo": "Desktop"
+      },
+      {
+        "registro_id": 2,
+        "data": "2025-01-03",
+        "canal": "Direto",
+        "sessoes": 2287,
+        "carrinhos": 263,
+        "pedidos": 180,
+        "receita": 11570.4,
+        "dispositivo": "Mobile"
+      },
+      {
+        "registro_id": 3,
+        "data": "2025-01-04",
+        "canal": "Orgânico",
+        "sessoes": 3558,
+        "carrinhos": 356,
+        "pedidos": 306,
+        "receita": 38653.92,
+        "dispositivo": "Desktop"
+      },
+      {
+        "registro_id": 4,
+        "data": "2025-01-05",
+        "canal": "Orgânico",
+        "sessoes": 666,
+        "carrinhos": 102,
+        "pedidos": 17,
+        "receita": 2466.02,
+        "dispositivo": "Mobile"
+      },
+      {
+        "registro_id": 5,
+        "data": "2025-01-06",
+        "canal": "Pago",
+        "sessoes": 3631,
+        "carrinhos": 235,
+        "pedidos": 182,
+        "receita": 26098.8,
+        "dispositivo": "Mobile"
+      },
+      {
+        "registro_id": 6,
+        "data": "2025-01-07",
+        "canal": "Direto",
+        "sessoes": 4652,
+        "carrinhos": 402,
+        "pedidos": 339,
+        "receita": 27445.44,
+        "dispositivo": "Desktop"
+      },
+      {
+        "registro_id": 7,
+        "data": "2025-01-08",
+        "canal": "Direto",
+        "sessoes": 919,
+        "carrinhos": 38,
+        "pedidos": 10,
+        "receita": 1511.8,
+        "dispositivo": "Mobile"
+      },
+      {
+        "registro_id": 8,
+        "data": "2025-01-09",
+        "canal": "Orgânico",
+        "sessoes": 3603,
+        "carrinhos": 303,
+        "pedidos": 288,
+        "receita": 18734.4,
+        "dispositivo": "Mobile"
+      }
+    ],
+    "tags": ["E-commerce", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "dataset-marketing",
+    "slug": "marketing",
+    "name": "Campanhas digitais",
+    "category": "Marketing",
+    "description": "Investimento, impressões, cliques e conversões.",
+    "difficulty": "Intermediário",
+    "rows": 600,
+    "columns": 8,
+    "dictionary": [
+      {
+        "name": "registro_id",
+        "type": "número",
+        "description": "Registro id; dado fictício"
+      },
+      {
+        "name": "data",
+        "type": "texto / data",
+        "description": "Data do evento (YYYY-MM-DD)"
+      },
+      {
+        "name": "campanha",
+        "type": "texto / data",
+        "description": "Campanha; dado fictício"
+      },
+      {
+        "name": "impressoes",
+        "type": "número",
+        "description": "Impressoes; dado fictício"
+      },
+      {
+        "name": "cliques",
+        "type": "número",
+        "description": "Cliques; dado fictício"
+      },
+      {
+        "name": "conversoes",
+        "type": "número",
+        "description": "Conversoes; dado fictício"
+      },
+      {
+        "name": "investimento",
+        "type": "número",
+        "description": "Investimento; dado fictício"
+      },
+      {
+        "name": "receita_atribuida",
+        "type": "número",
+        "description": "Receita atribuida; dado fictício"
+      }
+    ],
+    "kpis": ["CTR", "CPC", "ROAS"],
+    "analyses": ["Eficiência por campanha", "Retorno de mídia"],
+    "quality": [],
+    "preview": [
+      {
+        "registro_id": 1,
+        "data": "2025-01-02",
+        "campanha": "Marca",
+        "impressoes": 39618,
+        "cliques": 2298,
+        "conversoes": 208,
+        "investimento": 2300.54,
+        "receita_atribuida": 22285.12
+      },
+      {
+        "registro_id": 2,
+        "data": "2025-01-03",
+        "campanha": "Aquisição",
+        "impressoes": 36005,
+        "cliques": 2025,
+        "conversoes": 42,
+        "investimento": 1200.42,
+        "receita_atribuida": 10425.24
+      },
+      {
+        "registro_id": 3,
+        "data": "2025-01-04",
+        "campanha": "Marca",
+        "impressoes": 35676,
+        "cliques": 2079,
+        "conversoes": 142,
+        "investimento": 2072.82,
+        "receita_atribuida": 14124.74
+      },
+      {
+        "registro_id": 4,
+        "data": "2025-01-05",
+        "campanha": "Aquisição",
+        "impressoes": 18370,
+        "cliques": 2181,
+        "conversoes": 156,
+        "investimento": 2896.65,
+        "receita_atribuida": 37115.52
+      },
+      {
+        "registro_id": 5,
+        "data": "2025-01-06",
+        "campanha": "Marca",
+        "impressoes": 45129,
+        "cliques": 5373,
+        "conversoes": 101,
+        "investimento": 1267.6,
+        "receita_atribuida": 13905.68
+      },
+      {
+        "registro_id": 6,
+        "data": "2025-01-07",
+        "campanha": "Retenção",
+        "impressoes": 15267,
+        "cliques": 139,
+        "conversoes": 10,
+        "investimento": 1672.37,
+        "receita_atribuida": 2071.6
+      },
+      {
+        "registro_id": 7,
+        "data": "2025-01-08",
+        "campanha": "Marca",
+        "impressoes": 23872,
+        "cliques": 301,
+        "conversoes": 29,
+        "investimento": 1171.63,
+        "receita_atribuida": 3097.78
+      },
+      {
+        "registro_id": 8,
+        "data": "2025-01-09",
+        "campanha": "Aquisição",
+        "impressoes": 36755,
+        "cliques": 315,
+        "conversoes": 27,
+        "investimento": 1789.28,
+        "receita_atribuida": 2839.86
+      }
+    ],
+    "tags": ["Marketing", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "dataset-atendimento",
+    "slug": "atendimento",
+    "name": "Central de atendimento",
+    "category": "Atendimento",
+    "description": "Tickets com tempos de resposta e avaliação opcional.",
+    "difficulty": "Iniciante",
+    "rows": 600,
+    "columns": 8,
+    "dictionary": [
+      {
+        "name": "ticket_id",
+        "type": "número",
+        "description": "Ticket id; dado fictício"
+      },
+      {
+        "name": "data",
+        "type": "texto / data",
+        "description": "Data do evento (YYYY-MM-DD)"
+      },
+      {
+        "name": "canal",
+        "type": "texto / data",
+        "description": "Canal; dado fictício"
+      },
+      {
+        "name": "categoria",
+        "type": "texto / data",
+        "description": "Categoria; dado fictício"
+      },
+      {
+        "name": "tempo_resposta_min",
+        "type": "número",
+        "description": "Tempo resposta min; dado fictício"
+      },
+      {
+        "name": "tempo_resolucao_h",
+        "type": "número",
+        "description": "Tempo resolucao h; dado fictício"
+      },
+      {
+        "name": "resolvido",
+        "type": "número",
+        "description": "Resolvido; dado fictício"
+      },
+      {
+        "name": "satisfacao",
+        "type": "número",
+        "description": "Avaliação de 1 a 5; valores ausentes a cada 25 tickets"
+      }
+    ],
+    "kpis": ["CSAT", "Resolução", "Tempo de resposta"],
+    "analyses": ["Qualidade por canal", "Tratamento de avaliações ausentes"],
+    "quality": [
+      "24 avaliações ausentes intencionalmente (sem resposta).",
+      "3 canais com espaço final para exercícios de normalização."
+    ],
+    "preview": [
+      {
+        "ticket_id": 1,
+        "data": "2025-01-02",
+        "canal": "Email",
+        "categoria": "Incidente",
+        "tempo_resposta_min": 36,
+        "tempo_resolucao_h": 11.62,
+        "resolvido": 1,
+        "satisfacao": 1.0
+      },
+      {
+        "ticket_id": 2,
+        "data": "2025-01-03",
+        "canal": "Telefone",
+        "categoria": "Solicitação",
+        "tempo_resposta_min": 72,
+        "tempo_resolucao_h": 16.2,
+        "resolvido": 1,
+        "satisfacao": 1.0
+      },
+      {
+        "ticket_id": 3,
+        "data": "2025-01-04",
+        "canal": "Telefone",
+        "categoria": "Incidente",
+        "tempo_resposta_min": 99,
+        "tempo_resolucao_h": 46.33,
+        "resolvido": 0,
+        "satisfacao": 3.0
+      },
+      {
+        "ticket_id": 4,
+        "data": "2025-01-05",
+        "canal": "Telefone",
+        "categoria": "Solicitação",
+        "tempo_resposta_min": 26,
+        "tempo_resolucao_h": 51.48,
+        "resolvido": 1,
+        "satisfacao": 3.0
+      },
+      {
+        "ticket_id": 5,
+        "data": "2025-01-06",
+        "canal": "Chat",
+        "categoria": "Dúvida",
+        "tempo_resposta_min": 25,
+        "tempo_resolucao_h": 14.1,
+        "resolvido": 1,
+        "satisfacao": 2.0
+      },
+      {
+        "ticket_id": 6,
+        "data": "2025-01-07",
+        "canal": "Chat",
+        "categoria": "Dúvida",
+        "tempo_resposta_min": 75,
+        "tempo_resolucao_h": 34.59,
+        "resolvido": 1,
+        "satisfacao": 1.0
+      },
+      {
+        "ticket_id": 7,
+        "data": "2025-01-08",
+        "canal": "Telefone",
+        "categoria": "Solicitação",
+        "tempo_resposta_min": 39,
+        "tempo_resolucao_h": 44.23,
+        "resolvido": 0,
+        "satisfacao": 5.0
+      },
+      {
+        "ticket_id": 8,
+        "data": "2025-01-09",
+        "canal": "Chat",
+        "categoria": "Dúvida",
+        "tempo_resposta_min": 40,
+        "tempo_resolucao_h": 26.57,
+        "resolvido": 0,
+        "satisfacao": 3.0
+      }
+    ],
+    "tags": ["Atendimento", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "dataset-logistica",
+    "slug": "logistica",
+    "name": "Entregas e distribuição",
+    "category": "Logística",
+    "description": "Prazos, distâncias e custos de entregas fictícias.",
+    "difficulty": "Intermediário",
+    "rows": 600,
+    "columns": 8,
+    "dictionary": [
+      {
+        "name": "entrega_id",
+        "type": "número",
+        "description": "Entrega id; dado fictício"
+      },
+      {
+        "name": "data",
+        "type": "texto / data",
+        "description": "Data do evento (YYYY-MM-DD)"
+      },
+      {
+        "name": "regiao",
+        "type": "texto / data",
+        "description": "Região de operação"
+      },
+      {
+        "name": "prazo_dias",
+        "type": "número",
+        "description": "Prazo dias; dado fictício"
+      },
+      {
+        "name": "entrega_dias",
+        "type": "número",
+        "description": "Entrega dias; dado fictício"
+      },
+      {
+        "name": "no_prazo",
+        "type": "número",
+        "description": "No prazo; dado fictício"
+      },
+      {
+        "name": "distancia_km",
+        "type": "número",
+        "description": "Distancia km; dado fictício"
+      },
+      {
+        "name": "custo_frete",
+        "type": "número",
+        "description": "Custo frete; dado fictício"
+      }
+    ],
+    "kpis": ["Entregas no prazo", "Frete médio", "Prazo médio"],
+    "analyses": ["Atrasos por região", "Custos por quilômetro"],
+    "quality": [],
+    "preview": [
+      {
+        "entrega_id": 1,
+        "data": "2025-01-02",
+        "regiao": "Sul",
+        "prazo_dias": 3,
+        "entrega_dias": 7,
+        "no_prazo": 0,
+        "distancia_km": 745,
+        "custo_frete": 427.56
+      },
+      {
+        "entrega_id": 2,
+        "data": "2025-01-03",
+        "regiao": "Sul",
+        "prazo_dias": 5,
+        "entrega_dias": 14,
+        "no_prazo": 0,
+        "distancia_km": 1658,
+        "custo_frete": 174.84
+      },
+      {
+        "entrega_id": 3,
+        "data": "2025-01-04",
+        "regiao": "Nordeste",
+        "prazo_dias": 8,
+        "entrega_dias": 3,
+        "no_prazo": 1,
+        "distancia_km": 16,
+        "custo_frete": 478.06
+      },
+      {
+        "entrega_id": 4,
+        "data": "2025-01-05",
+        "regiao": "Nordeste",
+        "prazo_dias": 9,
+        "entrega_dias": 9,
+        "no_prazo": 1,
+        "distancia_km": 257,
+        "custo_frete": 142.76
+      },
+      {
+        "entrega_id": 5,
+        "data": "2025-01-06",
+        "regiao": "Norte",
+        "prazo_dias": 8,
+        "entrega_dias": 3,
+        "no_prazo": 1,
+        "distancia_km": 957,
+        "custo_frete": 143.66
+      },
+      {
+        "entrega_id": 6,
+        "data": "2025-01-07",
+        "regiao": "Sudeste",
+        "prazo_dias": 10,
+        "entrega_dias": 2,
+        "no_prazo": 1,
+        "distancia_km": 150,
+        "custo_frete": 307.64
+      },
+      {
+        "entrega_id": 7,
+        "data": "2025-01-08",
+        "regiao": "Sul",
+        "prazo_dias": 6,
+        "entrega_dias": 11,
+        "no_prazo": 0,
+        "distancia_km": 1932,
+        "custo_frete": 442.11
+      },
+      {
+        "entrega_id": 8,
+        "data": "2025-01-09",
+        "regiao": "Sudeste",
+        "prazo_dias": 5,
+        "entrega_dias": 11,
+        "no_prazo": 0,
+        "distancia_km": 1375,
+        "custo_frete": 73.83
+      }
+    ],
+    "tags": ["Logística", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "dataset-educacao",
+    "slug": "educacao",
+    "name": "Aprendizagem e resultados",
+    "category": "Educação",
+    "description": "Notas, frequência e conclusão em cursos de dados.",
+    "difficulty": "Iniciante",
+    "rows": 600,
+    "columns": 7,
+    "dictionary": [
+      {
+        "name": "matricula_id",
+        "type": "número",
+        "description": "Matricula id; dado fictício"
+      },
+      {
+        "name": "turma",
+        "type": "texto / data",
+        "description": "Turma; dado fictício"
+      },
+      {
+        "name": "curso",
+        "type": "texto / data",
+        "description": "Curso; dado fictício"
+      },
+      {
+        "name": "nota",
+        "type": "número",
+        "description": "Nota de 0 a 10; ausente a cada 40 matrículas"
+      },
+      {
+        "name": "frequencia",
+        "type": "número",
+        "description": "Frequencia; dado fictício"
+      },
+      {
+        "name": "concluido",
+        "type": "número",
+        "description": "Concluido; dado fictício"
+      },
+      {
+        "name": "carga_horaria",
+        "type": "número",
+        "description": "Carga horaria; dado fictício"
+      }
+    ],
+    "kpis": ["Conclusão", "Nota média", "Frequência"],
+    "analyses": ["Resultados por curso", "Tratamento de notas ausentes"],
+    "quality": [
+      "15 notas ausentes intencionalmente para exercícios de limpeza."
+    ],
+    "preview": [
+      {
+        "matricula_id": 1,
+        "turma": "C",
+        "curso": "SQL",
+        "nota": 7.3,
+        "frequencia": 0.72,
+        "concluido": 1,
+        "carga_horaria": 20
+      },
+      {
+        "matricula_id": 2,
+        "turma": "C",
+        "curso": "SQL",
+        "nota": 2.11,
+        "frequencia": 0.97,
+        "concluido": 1,
+        "carga_horaria": 40
+      },
+      {
+        "matricula_id": 3,
+        "turma": "C",
+        "curso": "Power BI",
+        "nota": 7.62,
+        "frequencia": 0.7,
+        "concluido": 0,
+        "carga_horaria": 60
+      },
+      {
+        "matricula_id": 4,
+        "turma": "A",
+        "curso": "Python",
+        "nota": 0.21,
+        "frequencia": 0.73,
+        "concluido": 1,
+        "carga_horaria": 20
+      },
+      {
+        "matricula_id": 5,
+        "turma": "A",
+        "curso": "Python",
+        "nota": 8.08,
+        "frequencia": 0.91,
+        "concluido": 0,
+        "carga_horaria": 20
+      },
+      {
+        "matricula_id": 6,
+        "turma": "B",
+        "curso": "Python",
+        "nota": 1.2,
+        "frequencia": 0.93,
+        "concluido": 0,
+        "carga_horaria": 60
+      },
+      {
+        "matricula_id": 7,
+        "turma": "C",
+        "curso": "SQL",
+        "nota": 8.9,
+        "frequencia": 0.85,
+        "concluido": 0,
+        "carga_horaria": 40
+      },
+      {
+        "matricula_id": 8,
+        "turma": "D",
+        "curso": "Power BI",
+        "nota": 7.49,
+        "frequencia": 0.96,
+        "concluido": 0,
+        "carga_horaria": 20
+      }
+    ],
+    "tags": ["Educação", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "dataset-fraudes",
+    "slug": "fraudes",
+    "name": "Transações e risco",
+    "category": "Prevenção a Fraudes",
+    "description": "Transações rotuladas para exercícios de análise de risco.",
+    "difficulty": "Avançado",
+    "rows": 600,
+    "columns": 8,
+    "dictionary": [
+      {
+        "name": "transacao_id",
+        "type": "número",
+        "description": "Transacao id; dado fictício"
+      },
+      {
+        "name": "data",
+        "type": "texto / data",
+        "description": "Data do evento (YYYY-MM-DD)"
+      },
+      {
+        "name": "conta_id",
+        "type": "número",
+        "description": "Conta id; dado fictício"
+      },
+      {
+        "name": "valor",
+        "type": "número",
+        "description": "Valor; dado fictício"
+      },
+      {
+        "name": "canal",
+        "type": "texto / data",
+        "description": "Canal; dado fictício"
+      },
+      {
+        "name": "score_risco",
+        "type": "número",
+        "description": "Pontuação entre 0 e 1; não representa um modelo real"
+      },
+      {
+        "name": "fraude_confirmada",
+        "type": "número",
+        "description": "Fraude confirmada; dado fictício"
+      },
+      {
+        "name": "pais",
+        "type": "texto / data",
+        "description": "Pais; dado fictício"
+      }
+    ],
+    "kpis": ["Taxa de fraude", "Valor em risco", "Precisão"],
+    "analyses": ["Distribuição de scores", "Fraude por canal"],
+    "quality": [],
+    "preview": [
+      {
+        "transacao_id": 1,
+        "data": "2025-01-02",
+        "conta_id": 2,
+        "valor": 16590.65,
+        "canal": "Transferência",
+        "score_risco": 0.41,
+        "fraude_confirmada": 0,
+        "pais": "BR"
+      },
+      {
+        "transacao_id": 2,
+        "data": "2025-01-03",
+        "conta_id": 3,
+        "valor": 9992.14,
+        "canal": "Transferência",
+        "score_risco": 0.16,
+        "fraude_confirmada": 0,
+        "pais": "AR"
+      },
+      {
+        "transacao_id": 3,
+        "data": "2025-01-04",
+        "conta_id": 4,
+        "valor": 12784.41,
+        "canal": "Transferência",
+        "score_risco": 0.22,
+        "fraude_confirmada": 0,
+        "pais": "BR"
+      },
+      {
+        "transacao_id": 4,
+        "data": "2025-01-05",
+        "conta_id": 5,
+        "valor": 14161.2,
+        "canal": "Pix",
+        "score_risco": 0.01,
+        "fraude_confirmada": 0,
+        "pais": "BR"
+      },
+      {
+        "transacao_id": 5,
+        "data": "2025-01-06",
+        "conta_id": 6,
+        "valor": 10818.65,
+        "canal": "Pix",
+        "score_risco": 0.48,
+        "fraude_confirmada": 0,
+        "pais": "BR"
+      },
+      {
+        "transacao_id": 6,
+        "data": "2025-01-07",
+        "conta_id": 7,
+        "valor": 12393.34,
+        "canal": "Cartão",
+        "score_risco": 0.44,
+        "fraude_confirmada": 0,
+        "pais": "US"
+      },
+      {
+        "transacao_id": 7,
+        "data": "2025-01-08",
+        "conta_id": 8,
+        "valor": 4224.43,
+        "canal": "Cartão",
+        "score_risco": 0.21,
+        "fraude_confirmada": 0,
+        "pais": "BR"
+      },
+      {
+        "transacao_id": 8,
+        "data": "2025-01-09",
+        "conta_id": 9,
+        "valor": 16218.27,
+        "canal": "Cartão",
+        "score_risco": 0.72,
+        "fraude_confirmada": 0,
+        "pais": "BR"
+      }
+    ],
+    "tags": ["Prevenção a Fraudes", "CSV", "Excel"],
+    "createdAt": "2026-11-04"
+  }
+]

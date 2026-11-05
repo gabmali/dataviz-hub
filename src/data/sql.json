@@ -1,0 +1,208 @@
+[
+  {
+    "id": "sql-1",
+    "name": "Selecionar pedidos",
+    "category": "SELECT",
+    "code": "SELECT pedido_id, data, receita FROM vendas;",
+    "description": "Seleciona as colunas de pedidos, datas e receita.",
+    "explanation": "Seleciona as colunas de pedidos, datas e receita.",
+    "steps": [
+      "Leia a tabela vendas com FROM.",
+      "Liste pedido_id, data e receita em SELECT para retornar somente essas colunas."
+    ],
+    "difficulty": "Iniciante",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "SELECT"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-2",
+    "name": "Filtrar receita",
+    "category": "WHERE",
+    "code": "SELECT * FROM vendas WHERE receita > 1000 AND canal = 'Online';",
+    "description": "Filtra pedidos online com receita acima de mil reais.",
+    "explanation": "Filtra pedidos online com receita acima de mil reais.",
+    "steps": [
+      "Use WHERE para manter receitas acima de 1000.",
+      "Combine com AND para exigir que o canal seja Online na mesma linha."
+    ],
+    "difficulty": "Iniciante",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "WHERE"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-3",
+    "name": "Receita por região",
+    "category": "GROUP BY",
+    "code": "SELECT regiao, SUM(receita) AS receita_total\nFROM vendas GROUP BY regiao;",
+    "description": "Agrupa pedidos por região e soma a receita.",
+    "explanation": "Agrupa pedidos por região e soma a receita.",
+    "steps": [
+      "Agrupe os pedidos com GROUP BY regiao.",
+      "Use SUM(receita) para calcular uma receita total por região."
+    ],
+    "difficulty": "Iniciante",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "GROUP BY"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-4",
+    "name": "Regiões com maior receita",
+    "category": "HAVING",
+    "code": "SELECT regiao, SUM(receita) AS receita_total\nFROM vendas GROUP BY regiao\nHAVING SUM(receita) > 50000;",
+    "description": "Agrega por região e filtra os grupos após a soma.",
+    "explanation": "Agrega por região e filtra os grupos após a soma.",
+    "steps": [
+      "Agrupe por região e calcule SUM(receita).",
+      "Aplique HAVING ao total para manter grupos acima de R$ 50.000."
+    ],
+    "difficulty": "Intermediário",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "HAVING"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-5",
+    "name": "Comparar canais de um cliente",
+    "category": "JOIN",
+    "code": "WITH clientes AS (\n  SELECT cliente_id, COUNT(*) AS pedidos FROM vendas GROUP BY cliente_id\n)\nSELECT v.pedido_id, v.cliente_id, v.canal, c.pedidos\nFROM vendas AS v INNER JOIN clientes AS c ON v.cliente_id = c.cliente_id;",
+    "description": "Cria um agregado por cliente e relaciona ao pedido sem duplicar chaves.",
+    "explanation": "Cria um agregado por cliente e relaciona ao pedido sem duplicar chaves.",
+    "steps": [
+      "A CTE clientes conta pedidos e cria uma linha por cliente_id.",
+      "Associe cada venda ao seu agregado com INNER JOIN por cliente_id.",
+      "Leia o canal da venda junto com a quantidade total de pedidos do cliente."
+    ],
+    "difficulty": "Intermediário",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "JOIN"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-6",
+    "name": "Acima da média",
+    "category": "Subqueries",
+    "code": "SELECT pedido_id, receita FROM vendas\nWHERE receita > (SELECT AVG(receita) FROM vendas);",
+    "description": "Calcula a média em uma subconsulta e usa como filtro.",
+    "explanation": "Calcula a média em uma subconsulta e usa como filtro.",
+    "steps": [
+      "Calcule AVG(receita) na subconsulta interna.",
+      "Use esse valor no WHERE da consulta externa para retornar pedidos acima da média."
+    ],
+    "difficulty": "Intermediário",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "Subqueries"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-7",
+    "name": "Resumo mensal",
+    "category": "CTE",
+    "code": "WITH meses AS (\n SELECT YEAR(data) AS ano, MONTH(data) AS mes, receita FROM vendas\n)\nSELECT ano, mes, SUM(receita) AS total\nFROM meses GROUP BY ano, mes ORDER BY ano, mes;",
+    "description": "Extrai ano e mês em uma CTE e agrega o resultado.",
+    "explanation": "Extrai ano e mês em uma CTE e agrega o resultado.",
+    "steps": [
+      "Na CTE meses, extraia ano e mês da data de cada pedido.",
+      "Agrupe por ano e mês, some receita e ordene os períodos cronologicamente."
+    ],
+    "difficulty": "Intermediário",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "CTE"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-8",
+    "name": "Ranking de pedidos",
+    "category": "Window Functions",
+    "code": "SELECT pedido_id, regiao, receita,\n DENSE_RANK() OVER (PARTITION BY regiao ORDER BY receita DESC) AS ranking\nFROM vendas;",
+    "description": "Ranqueia pedidos dentro de cada região, preservando as linhas.",
+    "explanation": "Ranqueia pedidos dentro de cada região, preservando as linhas.",
+    "steps": [
+      "Separe os pedidos por região com PARTITION BY.",
+      "Ordene por receita decrescente dentro de cada região.",
+      "DENSE_RANK dá a mesma posição a empates sem pular a posição seguinte."
+    ],
+    "difficulty": "Avançado",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "Window Functions"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-9",
+    "name": "Receita acumulada diária",
+    "category": "Window Functions",
+    "code": "WITH diario AS (\n SELECT data, SUM(receita) AS receita FROM vendas GROUP BY data\n)\nSELECT data, receita, SUM(receita) OVER (\n ORDER BY data ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\n) AS acumulado FROM diario ORDER BY data;",
+    "description": "Agrega por dia antes de calcular o acumulado para evitar empates de data.",
+    "explanation": "Agrega por dia antes de calcular o acumulado para evitar empates de data.",
+    "steps": [
+      "Some a receita por dia na CTE diario.",
+      "Na janela ordenada por data, some da primeira linha até a data corrente."
+    ],
+    "difficulty": "Avançado",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "Window Functions"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-10",
+    "name": "Ticket médio",
+    "category": "Agregações",
+    "code": "SELECT SUM(receita) / NULLIF(COUNT(DISTINCT pedido_id), 0) AS ticket_medio\nFROM vendas;",
+    "description": "Divide receita por pedidos e evita divisão por zero.",
+    "explanation": "Divide receita por pedidos e evita divisão por zero.",
+    "steps": [
+      "Some a receita e conte os identificadores distintos de pedidos.",
+      "Use NULLIF para que um denominador zero produza NULL na divisão."
+    ],
+    "difficulty": "Iniciante",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "Agregações"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-11",
+    "name": "Normalizar avaliações",
+    "category": "Tratamento de dados",
+    "code": "SELECT ticket_id, LTRIM(RTRIM(canal)) AS canal,\n COALESCE(CAST(satisfacao AS varchar(10)), 'Sem avaliação') AS avaliacao\nFROM atendimento;",
+    "description": "Remove espaços do canal e identifica avaliações ausentes.",
+    "explanation": "Remove espaços do canal e identifica avaliações ausentes.",
+    "steps": [
+      "Aplique LTRIM e RTRIM para remover espaços antes e depois do canal.",
+      "Converta a nota em texto e use COALESCE para rotular notas ausentes."
+    ],
+    "difficulty": "Intermediário",
+    "dialect": "SQL Server 2019+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "Tratamento de dados"],
+    "createdAt": "2026-11-04"
+  },
+  {
+    "id": "sql-12",
+    "name": "Receita por mês — MySQL",
+    "category": "CTE",
+    "code": "SELECT DATE_FORMAT(data, '%Y-%m') AS mes, SUM(receita) AS receita\nFROM vendas GROUP BY DATE_FORMAT(data, '%Y-%m') ORDER BY mes;",
+    "description": "No MySQL use DATE_FORMAT; no SQL Server use YEAR e MONTH como no exemplo Resumo mensal.",
+    "explanation": "No MySQL use DATE_FORMAT; no SQL Server use YEAR e MONTH como no exemplo Resumo mensal.",
+    "steps": [
+      "Converta cada data no rótulo YYYY-MM com DATE_FORMAT.",
+      "Agrupe pelo rótulo, some a receita e ordene por mês."
+    ],
+    "difficulty": "Iniciante",
+    "dialect": "MySQL 8+",
+    "prerequisites": "Importe o CSV para uma tabela com o mesmo nome do arquivo. Converta data para DATE e receita/custo para DECIMAL(18,2); IDs para INT. Remova o BOM do cabeçalho na importação.",
+    "tags": ["SQL", "CTE"],
+    "createdAt": "2026-11-04"
+  }
+]
